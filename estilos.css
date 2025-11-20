@@ -1,0 +1,80 @@
+/* estilos.css */
+
+/* Estilo para la imagen del carrusel para asegurar que cubra el espacio y tenga una altura fija */
+.carousel-item img {
+    height: 450px; /* Ajusta la altura que prefieras */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin deformarse */
+}
+
+/* Estilo para las tarjetas de producto */
+.card-img-top {
+    height: 200px; /* Altura fija para todas las imágenes de los postres */
+    object-fit: cover;
+    background-color: aqua;
+}
+
+
+/* 1. ESTILO BASE: Añade la transición suave para la animación */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* 2. ESTILO DE LA IMAGEN: (Este ya lo tenías, asegúrate que esté) */
+.card-img-top {
+    height: 200px; 
+    object-fit: cover;
+}
+
+/* 3. EFECTO AL PASAR EL MOUSE (HOVER) */
+.card:hover {
+    transform: scale(1.05); /* Esto agranda la tarjeta un 5% */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra más fuerte */
+    cursor: pointer;
+}
+
+
+/* Color de fondo suave para el cuerpo de la página */
+body {
+    background-color:#f77bb5;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fbd9e2; 
+}
+
+/* 2. Aplicar Parisienne (Elegante) a los títulos */
+h1, h2, h3, .navbar-brand {
+    font-family: 'Parisienne', cursive;
+    /* Esto asegurará que el nombre SWEET ATELIER en la navbar use la fuente cursiva */
+}
+
+/* 3. Ajustar el tamaño del nombre de la marca si es necesario */
+.navbar-brand {
+    font-size: 2rem; 
+    color: #e83e8c !important; /* Mantiene tu color dulce */
+}
+
+
+/* Opcional: Estilo para un encabezado más dulce */
+.navbar-brand {
+    font-family: 'Georgia', serif; /* Cambia a una fuente más elegante si tienes una */
+    font-size: 1.5rem;
+    color:brown !important; /* Un color rosa o dulce */
+}
+
+/* Estilo para la sección de productos */
+#productos {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* estilos.css */
+/* Estilo para los iconos sociales en el footer */
+.social-link {
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block; /* Necesario para que la transformación funcione */
+}
+
+.social-link:hover {
+    color: #69ec12 !important; /* Cambia al color dulce de tu marca al hacer hover */
+    transform: scale(1.2); /* Se agranda ligeramente */
+}
+
